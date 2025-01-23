@@ -1,0 +1,163 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family:'HarmonyOS_Sans_Regular';
+  src: url('font/HarmonyOS_Sans/HarmonyOS_Sans_Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.logo{
+  margin-top: 62%;
+  width: 250px;
+}
+
+.pr{
+  position: relative;
+}
+
+.pa{
+  position: absolute;
+  z-index: 2;
+}
+
+.part1{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: -1;
+}
+
+#myVid{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.video_bg {
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.center{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  margin: 5px;
+  width: 150px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  cursor: pointer;
+}
+.cntrl{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.ehe{
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+}
+.butt{
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons:hover {
+  background: rgba(230,230,230,0.5);
+  color: black;
+}
+
+.showcase{
+  background-color: #333;
+}
+.desc{
+  width: 50%;
+}
+.BS{
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  object-fit: cover;
+}
+.char{
+  display: block;
+  width: 50%;
+  z-index: 3;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.desc{
+  font-family:'HarmonyOS_Sans_Regular';
+  color: white;
+  padding: 25px;
+  z-index: 3;
+}
+.bgv{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  object-fit:cover;
+  align-items: center;
+  width: 100%;
+}
+.bf{
+  position: absolute;
+  z-index: 3;
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  object-fit: cover;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.pb{
+  z-index: 3;
+  bottom: 50px;
+}
+.play{
+  width: 50px;
+  height: 50px;
+}
